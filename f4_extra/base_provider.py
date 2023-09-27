@@ -6,9 +6,9 @@ class BaseProvider(ABC):
         self.name = name
         self.price = price
         self.square = square
-        if self.price == 0:
+        if self.price <= 0:
             raise Exception('Ну мы же не в сказке')
 
     @property
-    def quality(self):
+    def quality(self) -> float:
         return (100 * self.square) / self.price

@@ -7,7 +7,7 @@ mpl.use('TkAgg')
 fig, ax = plt.subplots()
 
 h = 0.5
-x_range = numpy.arange(-2, 3, 0.5)
+x_range = numpy.arange(-2, 3, h)
 
 
 def f(x, k):
