@@ -7,5 +7,5 @@ class Middle(BaseHuman):
         return round(0.05 * self.experience * 100)
 
     @property
-    def class_state(self):
+    def class_str(self):
         return 'Опытный'

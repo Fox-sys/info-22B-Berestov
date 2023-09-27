@@ -7,5 +7,5 @@ class Senior(BaseHuman):
         return round((0.9 - 0.01 * self.age) * 100)
 
     @property
-    def class_state(self):
+    def class_str(self):
         return 'Ветеран'

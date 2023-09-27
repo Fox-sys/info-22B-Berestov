@@ -52,7 +52,7 @@ class MainWindow(QMainWindow):
         for id, shooter in enumerate(self.shooters):
             self.shooters_info_labels.append(QtWidgets.QLabel(self))
             self.shooters_info_labels[id].setText(
-                f'Стрелок: {shooter.class_state} {shooter.name}. Возраст: {shooter.age} годиков, '
+                f'Стрелок: {shooter.class_str} {shooter.name}. Возраст: {shooter.age} годиков, '
                 f'опыт: {shooter.experience} годиков.'
             )
             self.shooters_info_labels[id].adjustSize()

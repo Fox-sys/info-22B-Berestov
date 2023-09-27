@@ -12,7 +12,7 @@ class BaseHuman(ABC):
 
     @property
     @abstractmethod
-    def chance(self):
+    def chance(self) -> int:
         ...
 
     def shoot(self) -> bool:
@@ -23,5 +23,5 @@ class BaseHuman(ABC):
 
     @property
     @abstractmethod
-    def class_state(self):
+    def class_str(self) -> str:
         ...

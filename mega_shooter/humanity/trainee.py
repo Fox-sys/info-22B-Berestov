@@ -7,5 +7,5 @@ class Trainee(BaseHuman):
         return round(0.01 * self.experience * 100)
 
     @property
-    def class_state(self):
+    def class_str(self):
         return 'Новичок'
