@@ -1,4 +1,4 @@
-from mega_shooter.start import start
+from mega_shooter.main import start
 
 
 start()
