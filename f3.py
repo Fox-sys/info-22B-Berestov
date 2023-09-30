@@ -18,7 +18,7 @@ def task_1():
 
     vec = matrix.reshape(7 * 7, )
     vec = vec[vec < 0]
-    print(np.sum(vec[0 == vec % 2]))
+    print(np.sum(vec[1 == vec % 2]))
 
 
 def task_2():
